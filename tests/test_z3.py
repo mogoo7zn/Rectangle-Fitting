@@ -11,7 +11,7 @@ DATA = Path(__file__).parent.parent / "data" / "manual"
 
 def run_z3(input_path):
     result = subprocess.run(
-        ["/home/lcy/Workspace/Formalization/final/.venv/bin/python3", str(Z3), str(input_path), "-q"],
+        [sys.executable, str(Z3), str(input_path), "-q"],
         capture_output=True, text=True, timeout=10
     )
     return json.loads(result.stdout)
