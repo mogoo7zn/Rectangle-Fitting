@@ -1,0 +1,56 @@
+# === 编译产物 ===
+build/
+*.o
+*.a
+*.so
+*.dylib
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.pdb
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+dist/
+*.egg
+.venv/
+venv/
+ENV/
+.eggs/
+
+# === IDE / 编辑器 ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# === 测试/结果 ===
+results/raw/
+results/tables/
+results/figures/
+*.png
+*.csv
+*.out
+
+# === Z3 / Solver 缓存 ===
+.z3/
+
+# === CMake 默认构建目录 ===
+*/build/
+
+# === 临时文件 ===
+*.tmp
+*.log
+
+# === 额外文件 ===
+.claude/settings.local.json
+build.bat
+build.sh
+*.exe

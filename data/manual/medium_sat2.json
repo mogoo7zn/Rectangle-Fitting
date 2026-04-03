@@ -1,0 +1,8 @@
+{
+  "container": {"W": 10, "H": 8},
+  "allow_rotation": true,
+  "rectangles": [
+    {"id": 1, "w": 6, "h": 5},
+    {"id": 2, "w": 5, "h": 4}
+  ]
+}

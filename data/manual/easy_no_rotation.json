@@ -1,0 +1,9 @@
+{
+  "container": {"W": 10, "H": 10},
+  "allow_rotation": false,
+  "rectangles": [
+    {"id": 1, "w": 6, "h": 4},
+    {"id": 2, "w": 4, "h": 3},
+    {"id": 3, "w": 3, "h": 3}
+  ]
+}
